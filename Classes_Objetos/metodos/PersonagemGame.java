@@ -3,15 +3,17 @@ public class PersonagemGame {
     private String nome;
 
     public void tomarDano(int quantidadeDeDano) {
-        if(saudeAtual > 0) {
-            saudeAtual -= quantidadeDeDano;
+        if(saudeAtual == 0) {
+            return;
         }
+        saudeAtual -= quantidadeDeDano;
     }
 
     public void receberCura(int quantidadeDeCura) {
-        if(saudeAtual < 100) {
-            saudeAtual += quantidadeDeCura;
+        if(saudeAtual == 100) {
+            return;
         }
+        saudeAtual += quantidadeDeCura;
     }
 
     public int getSaudeAtual() {
