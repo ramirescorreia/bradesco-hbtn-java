@@ -1,3 +1,6 @@
+package Heranca_Exercicios.pedido_livraria;
+
+
 public class Pedido {
     private double percentualDesconto;
     private ItemPedido[] itens;
