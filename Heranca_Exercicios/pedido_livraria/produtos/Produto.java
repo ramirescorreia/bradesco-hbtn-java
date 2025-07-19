@@ -13,5 +13,13 @@ public abstract class Produto {
         this.precoBruto = precoBruto;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public double getPrecoBruto() {
+        return precoBruto;
+    }
+
     public abstract double obterPrecoLiquido();
 }
