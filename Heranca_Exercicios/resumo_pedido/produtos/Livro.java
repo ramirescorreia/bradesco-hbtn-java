@@ -1,5 +1,3 @@
-package Heranca_Exercicios.resumo_pedido.produtos;
-
 public class Livro extends Produto {
     private int paginas;
     private String autor;

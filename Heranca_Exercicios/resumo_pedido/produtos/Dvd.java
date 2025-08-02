@@ -1,5 +1,3 @@
-package Heranca_Exercicios.resumo_pedido.produtos;
-
 public class Dvd extends Produto{
     private String diretor;
     private String genero;

@@ -1,6 +1,3 @@
-package Heranca_Exercicios.resumo_pedido;
-
-
 public class Pedido {
     private double percentualDesconto;
     private ItemPedido[] itens;
