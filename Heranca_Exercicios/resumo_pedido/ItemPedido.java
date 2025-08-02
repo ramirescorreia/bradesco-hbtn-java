@@ -1,6 +1,6 @@
 package Heranca_Exercicios.resumo_pedido;
 
-import Heranca_Exercicios.pedido_livraria.produtos.Produto;
+import Heranca_Exercicios.resumo_pedido.produtos.Produto;
 
 public class ItemPedido {
     private int quantidade;
